@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.6.1.v20241001-1446_22?>
+<!--BMC AMI DevX Total Test 23.6.1.v20241001-1446_22 Nov 18, 2024, 6:44:25 PM-->
+<testscenario:testscenario xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/TRIMAIN_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="TRIMAIN" encoding="1047" entrypoint="TRIMAIN#C" id="Tests/Scenarios/TRIMAIN_Scenario.testscenario%23TRIMAINCase1" target="TRIMAIN">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.CCV1.DEV1.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1731958282000</testcase:targetCaptureCompileTime>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/TRIMAIN_TRIRPT.stub#Tests/Stubs/TRIMAIN_TRIRPT.stub</testcase:stub>
+        <testcase:stub>../Stubs/TRIMAIN_TRITST.stub#Tests/Stubs/TRIMAIN_TRITST.stub</testcase:stub>
+        <testcase:stub>../Stubs/TRIMAIN_INFILE_FILE.stub#Tests/Stubs/TRIMAIN_INFILE_FILE.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/TRIMAIN_RETURN-CODE.listructure#Tests/Structures/TRIMAIN_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRIMAIN_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRIMAIN</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
