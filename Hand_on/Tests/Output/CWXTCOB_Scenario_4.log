@@ -1,0 +1,81 @@
+09:34:34.850 INFO      Total Test       ***************************************
+09:34:34.850 INFO      Total Test       ** Execution from Topaz with options **
+09:34:34.850 INFO      Total Test       ***************************************
+09:34:34.850 INFO      Total Test       Using repository: false
+09:34:34.850 INFO      Total Test       ***************************************
+09:34:34.850 INFO      Engine           Test Scenario execution started
+09:34:34.850 ALL       Engine           Total Test Version: 23.7.1.v20250129-1749_41
+09:34:34.850 INFO      Engine           Using context settings:
+  Engine Version                : 23.7.1.v20250129-1749_41
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 198.147.191.81
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1047
+  Host user Id                  : IBZKXM
+  Use Repository Server         : false
+  Account Information           : 
+  Dataset High Level Qualifier  : SALESUP
+09:34:34.850 INFO      Engine           Setting variables from context and context data extensions
+09:34:34.850 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+09:34:34.850 INFO      Engine             id: environmentType    value: BATCH
+09:34:34.850 INFO      Engine             id: userId             value: IBZKXM
+09:34:34.850 INFO      Engine             id: accountingInfo     value: 
+09:34:34.850 INFO      Engine             id: datasetHQL         value: SALESUP
+09:34:34.850 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario_4.testscenario
+09:34:34.850 TRACE     Unittest         Initialising Total Test runner...
+09:34:34.850 DEBUG     Unittest         Getting TTTRUNNR loadlib version
+09:34:35.022 TRACE     Unittest         TTTRUNNR PTF level: 20231211-220927
+09:34:35.022 DEBUG     Unittest         Generic JCL skeleton used from environment/connection
+09:34:35.022 INFO      Unittest         Using JCL skeleton to submit JCL
+09:34:35.022 DEBUG     Unittest         Building binary files for test scenario: CWXTCOB_Scenario_4.testscenario in project Tests
+09:34:35.964 ERROR     Engine           Unable to upload binary files.
+09:34:35.964 ERROR     Engine           An error occurred. Now stopping the execution.
+09:34:35.964 INFO      Engine           ALL logging is turned on. The stacktrace below does not mean that an error occurred in the Java engine, but can be useful for debugging
+09:34:35.964 INFO      Engine           Stacktrace:com.compuware.xatester.xaunit.exceptions.ExecutionStoppedException: Unable to upload binary files.
+	at com.compuware.xatester.unittest.extensions.UnittestComponent.interprete(UnittestComponent.java:307)
+	at com.compuware.xatester.unittest.extensions.UnittestComponent.interprete(UnittestComponent.java:1)
+	at com.compuware.xatester.xaunit.execution.XaUnitInterpreter.interpretChildComponents(XaUnitInterpreter.java:99)
+	at com.compuware.xatester.xaunit.execution.XaUnitInterpreter.interpret(XaUnitInterpreter.java:273)
+	at com.compuware.xatester.ui.execution.XaUnitExecutor.execute(XaUnitExecutor.java:415)
+	at com.compuware.xatester.ui.execution.XaUnitExecutor$XaUnitExecutorJob.run(XaUnitExecutor.java:520)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.reflect.InvocationTargetException: Unable to upload binary files.
+	at com.compuware.xatester.unittest.extensions.ExecuteSkeletonsLocal.runTestSuite(ExecuteSkeletonsLocal.java:279)
+	at com.compuware.xatester.unittest.extensions.UnittestComponent.interprete(UnittestComponent.java:287)
+	... 6 more
+Caused by: com.compuware.unittest.cli.common.TotalTestCLIException: Unable to upload binary files.
+	at com.compuware.unittest.cli.transfer.internal.UploadFiles.doUpload(UploadFiles.java:159)
+	at com.compuware.unittest.cli.transfer.Transfer.doUpload(Transfer.java:231)
+	at com.compuware.unittest.cli.run.TestRunner.executeTestBuildDatasets(TestRunner.java:958)
+	at com.compuware.unittest.cli.run.TestRunner.buildDatasets(TestRunner.java:296)
+	at com.compuware.xatester.unittest.extensions.ExecuteSkeletonsLocal.runTestSuite(ExecuteSkeletonsLocal.java:102)
+	... 7 more
+Caused by: com.compuware.unittest.eclipse.common.TotalTestException: An exception occurred allocating dataset "SALESUP.IBZKXM.TOTALTST.ID675132.BININP".
+
+Possible causes:
+  - The user does not have sufficient authority to allocate the dataset set.
+  - Not enough space to allocate dataset. 
+	at com.compuware.unittest.eclipse.hostservices.ResourceUtilities.allocateDataset(ResourceUtilities.java:678)
+	at com.compuware.unittest.eclipse.hostservices.ResourceUtilities.allocateDataset(ResourceUtilities.java:590)
+	at com.compuware.unittest.eclipse.hostservices.ResourceUtilities.uploadBinaryData(ResourceUtilities.java:254)
+	at com.compuware.unittest.cli.transfer.internal.UploadFiles.doUpload(UploadFiles.java:108)
+	... 11 more
+Caused by: The dataset could not be allocated. The most probable cause is that the user does not have sufficient authority to allocate the dataset.
+	at com.compuware.frameworks.hostservices.client.HostServicesExceptionFactory.createException(HostServicesExceptionFactory.java:167)
+	at com.compuware.frameworks.hostservices.client.HostServicesException.createInstance(HostServicesException.java:134)
+	at com.compuware.frameworks.hostservices.client.HostServicesException.createInstance(HostServicesException.java:111)
+	at com.compuware.frameworks.hostservices.client.HostServicesException.createInstance(HostServicesException.java:75)
+	at com.compuware.frameworks.hostservices.client.internal.objectfactory.HostServicesClientObjectFactory.createHostServicesException(HostServicesClientObjectFactory.java:44)
+	at com.compuware.frameworks.hostservices.client.internal.impl.hostresources.HostResourceCacheManager.allocateHostResourceOnHost(HostResourceCacheManager.java:251)
+	at com.compuware.frameworks.hostservices.client.internal.impl.hostresources.HostResourceManagerExImpl.allocateResourceOnHost(HostResourceManagerExImpl.java:142)
+	at com.compuware.unittest.eclipse.hostservices.ResourceUtilities.allocateDataset(ResourceUtilities.java:644)
+	... 14 more
+
+09:34:35.964 INFO      Engine           Test Scenario execution ended
