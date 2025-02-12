@@ -7,7 +7,7 @@
       <Value>CEE.SCEERUN</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario_4.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario_4.testscenario">
     <Test>
       <Unittest testscenariopath="CWXTCOB_Scenario_4.testscenario" moduleName="CWXTCOB" />
     </Test>

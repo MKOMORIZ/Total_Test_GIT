@@ -186,7 +186,7 @@
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D4C1D9C3C9C140E2E4D3D3C9E5C1D540C5C1E2E340404040C8404040F0F461F0F561F9F3404040F3F1404040F1F2F0F04BF0F0404040F7F8F04BF0F0404040404040F04BF0F04040F1F9F8F04BF0F040</properties:property>
+          <properties:property name="value" type="string">40D4C1D9C3C9C140E2E4D3D3C9E5C1D540C5C1E2E340404040C8404040F0F461F0F561F9F3404040F3F1404040F1F2F0F04BF0F0404040F3F0F04BF0F0404040404040F04BF0F04040F1F5F0F04BF0F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -230,7 +230,7 @@
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40E2C1D4E4C5D340C1C4C4C1D4E2404040E6C5E2E340404040C8404040F0F161F0F261F8F6404040F3F9404040F1F1F0F04BF0F0404040F3F5F74BF5F0404040404040F04BF0F04040F1F4F5F74BF5F040</properties:property>
+          <properties:property name="value" type="string">40E2C1D4E4C5D340C1C4C4C1D4E2404040E6C5E2E340404040C8404040F0F161F0F261F8F6404040F3F9404040F1F1F0F04BF0F0404040F1F3F74BF5F0404040404040F04BF0F04040F1F2F3F74BF5F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -263,7 +263,7 @@
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure#Tests/Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL" id="arg0.EMP_TOTAL_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40404040E3D6E3C1D3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F4F6F2F4F14BF0F040</properties:property>
+          <properties:property name="value" type="string">40404040E3D6E3C1D3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F4F5F5F4F14BF0F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
