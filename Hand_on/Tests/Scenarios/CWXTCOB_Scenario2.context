@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="VERBOSE_E" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
   <ExtensionData>
+    <Parameter key="level">
+      <Value>DEV1</Value>
+    </Parameter>
     <Parameter key="unittest.loadlibraries">
       <Value>SYS2.CW.CXR17X.SLCXLOAD</Value>
       <Value>SALESSUP.CCV1.DEV1.LOAD</Value>
@@ -9,8 +12,11 @@
       <Value>SYS2.CW.CXR17X.SLCXLOAD</Value>
       <Value>SALESSUP.CCV1.DEV1.LOAD</Value>
     </Parameter>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/Runner.jcl</Value>
+    </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario2.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario2.context">
     <Test>
       <Unittest testscenariopath="CWXTCOB_Scenario2.testscenario" moduleName="CWXTCOB" />
     </Test>
