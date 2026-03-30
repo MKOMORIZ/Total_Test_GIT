@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.1.1.v20250710-1858_222?>
+<!--BMC AMI DevX Total Test 25.1.1.v20250710-1858_222 Sep 4, 2025, 8:58:06 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/CWDEMCB2_HANDLE.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_HANDLE/CWDEMCB2_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#Tests/Structures/CICS/CWDEMCB2_HANDLE/CWDEMCB2_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_HANDLE/CWDEMCB2_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_HANDLE/CWDEMCB2_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

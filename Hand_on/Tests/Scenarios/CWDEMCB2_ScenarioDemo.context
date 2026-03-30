@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>CTS530.CICS.HCCAC013.LOADLIB.PDSE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWDEMCB2" caseInsensitiveCompare="false" path="CWDEMCB2_ScenarioDemo.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWDEMCB2_ScenarioDemo.testscenario" moduleName="CWDEMCB2" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

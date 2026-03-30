@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "SonarLint-Visua",
+        "projectKey": "MKOMORIZ_Total_Test_GIT"
+    }
+}

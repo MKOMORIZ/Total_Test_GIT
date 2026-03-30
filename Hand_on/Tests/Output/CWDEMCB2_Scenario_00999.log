@@ -1,0 +1,41 @@
+09:17:33.631 INFO      Total Test       ***************************************
+09:17:33.632 INFO      Total Test       ** Execution from Topaz with options **
+09:17:33.632 INFO      Total Test       ***************************************
+09:17:33.632 INFO      Total Test       Using repository: true
+09:17:33.633 INFO      Total Test       Repository URL: http://cwc2.bmc.com:2020/totaltestapi/
+09:17:33.633 INFO      Total Test       ***************************************
+09:17:33.636 INFO      Engine           Test Scenario execution started
+09:17:33.637 INFO      Engine           Using context settings:
+  Engine Version                : 25.3.2.v20260220-1304_141
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.bmc.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : IBZKXM
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+09:17:33.637 INFO      Engine           Setting variables from context and context data extensions
+09:17:33.637 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+09:17:33.641 INFO      Engine             id: environmentType    value: BATCH
+09:17:33.641 INFO      Engine             id: userId             value: IBZKXM
+09:17:33.641 INFO      Engine             id: accountingInfo     value: 
+09:17:33.641 INFO      Engine             id: datasetHQL         value: 
+09:17:33.641 INFO      Engine             id: level              value: DEV1
+09:17:33.642 INFO      Unittest         Interpreting Unittest of module: CWDEMCB2 testscenario path: CWDEMCB2_Scenario_00999.testscenario
+09:17:34.872 INFO      Unittest         Generating JCL on the mainframe from mainframe skeleton.
+09:17:34.873 INFO      Unittest         It is possible to use local JCL skeleton by placing runner JCL in a TTTRUNNER.jcl file in the JCL directory relative to the unit test scenario file. Its possible to use ${loadlibraries} for the steplib value after the TTTRUNNER: DD DISP=SHR,DSN=${loadlibraries}
+09:17:40.009 INFO      HCIClient        Job has been started at host with JobId:J0669612
+09:17:40.010 INFO      Unittest         TTTRun was executed
+09:17:40.010 INFO      Unittest         TTTRunner job submitted with jobId:J0669612
+09:17:40.513 INFO      Unittest         Waiting for Job to complete
+09:17:45.919 INFO      Unittest         Job has completed, JobId:J0669612
+09:17:49.593 INFO      Unittest         Execution completed
+09:17:49.593 INFO      Engine           Test Scenario execution ended

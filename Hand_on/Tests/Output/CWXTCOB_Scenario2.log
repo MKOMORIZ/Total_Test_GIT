@@ -1,17 +1,17 @@
-13:18:41.827 INFO      Total Test       ***************************************
-13:18:41.827 INFO      Total Test       ** Execution from Topaz with options **
-13:18:41.827 INFO      Total Test       ***************************************
-13:18:41.827 INFO      Total Test       Using repository: true
-13:18:41.827 INFO      Total Test       Repository URL: http://cwc2.bmc.com:2020/totaltestapi/
-13:18:41.827 INFO      Total Test       ***************************************
-13:18:41.827 INFO      Engine           Test Scenario execution started
-13:18:41.827 INFO      Engine           Using context settings:
+14:50:53.483 INFO      Total Test       ***************************************
+14:50:53.484 INFO      Total Test       ** Execution from Topaz with options **
+14:50:53.484 INFO      Total Test       ***************************************
+14:50:53.484 INFO      Total Test       Using repository: true
+14:50:53.484 INFO      Total Test       Repository URL: http://cwc2.bmc.com:2020/totaltestapi/
+14:50:53.484 INFO      Total Test       ***************************************
+14:50:53.486 INFO      Engine           Test Scenario execution started
+14:50:53.487 INFO      Engine           Using context settings:
   Engine Version                : 25.1.1.v20250710-1858_222
   Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : cwcc.bmc.com
+  Server address                : 198.147.191.81
   Server port                   : 16196
   Job execution timeout seconds : 600
   Job info interval seconds     : 3
@@ -22,23 +22,23 @@
   Use Repository Server         : true
   Account Information           : 
   Dataset High Level Qualifier  : 
-13:18:41.827 INFO      Engine           Setting variables from context and context data extensions
-13:18:41.828 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-13:18:41.828 INFO      Engine             id: environmentType    value: BATCH
-13:18:41.828 INFO      Engine             id: userId             value: IBZKXM
-13:18:41.828 INFO      Engine             id: accountingInfo     value: 
-13:18:41.828 INFO      Engine             id: datasetHQL         value: 
-13:18:41.828 INFO      Engine             id: level              value: DEV1
-13:18:41.828 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario2.testscenario
-13:18:41.840 INFO      Unittest         Static JCL is being used, path is: C:/Users/mkomori/git/Total_Test_GIT/Hand_on/Tests/JCL/Runner.jcl
-13:18:45.610 INFO      CWCC - Demo System OK Sending Job execution request to Host 
-13:18:50.958 INFO      CWCC - Demo System OK Job execution completed with status:
+14:50:53.487 INFO      Engine           Setting variables from context and context data extensions
+14:50:53.487 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+14:50:53.488 INFO      Engine             id: environmentType    value: BATCH
+14:50:53.489 INFO      Engine             id: userId             value: IBZKXM
+14:50:53.489 INFO      Engine             id: accountingInfo     value: 
+14:50:53.489 INFO      Engine             id: datasetHQL         value: 
+14:50:53.489 INFO      Engine             id: level              value: DEV1
+14:50:53.490 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario2.testscenario
+14:50:54.164 INFO      Unittest         Static JCL is being used, path is: C:/Users/mkomori/git/Total_Test_GIT/Hand_on/Tests/JCL/Runner.jcl
+14:50:59.098 INFO      CWCC - Demo System OK Sending Job execution request to Host 
+14:51:04.460 INFO      CWCC - Demo System OK Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job MKRNTTT(J0638679) ended with return code: 0000
+  Job status msg : Job MKRNTTT(J0638695) ended with return code: 0000
   Job name       : MKRNTTT
-  Job id         : J0638679
+  Job id         : J0638695
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:18:54.026 INFO      Unittest         Execution completed
-13:18:54.026 INFO      Engine           Test Scenario execution ended
+14:51:12.257 INFO      Unittest         Execution completed
+14:51:12.257 INFO      Engine           Test Scenario execution ended

@@ -27,7 +27,7 @@
     <SSIDName />
     <description>CWCC - Test Drive Port</description>
     <label>CWCC - Test Drive Port</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
+    <skeletonDir />
     <datasethlq />
     <jclproperties>
       <property key="lpar_tttrunner_lib" value="&lt;VALUE&gt;" />
@@ -132,7 +132,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;VALUE&gt;" />
+      <property key="lpar_tttrunner_lib" value="CSGI.CW.CXGA.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>

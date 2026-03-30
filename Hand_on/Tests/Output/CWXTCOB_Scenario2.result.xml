@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result:DocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:result="http://www.compuware.com/model/xml/result">
-<?totaltestVersion 25.1.1.v20250710-1858_222?><!--BMC AMI DevX Total Test 25.1.1.v20250710-1858_222 Nov 27, 2025, 1:17:41 PM-->  <result>
-    <testsuiteResult errorCount="0" failureCount="0" testCount="444">
-      <testscenarioResults errorCount="0" failureCount="0" testCount="444">
-        <testcaseResults errorCount="0" failureCount="0" testCount="444">
+<?totaltestVersion 25.1.1.v20250710-1858_222?><!--BMC AMI DevX Total Test 25.1.1.v20250710-1858_222 Nov 27, 2025, 2:51:10 PM-->  <result>
+    <testsuiteResult errorCount="0" failureCount="5" testCount="444">
+      <testscenarioResults errorCount="0" failureCount="5" testCount="444">
+        <testcaseResults errorCount="0" failureCount="5" testCount="444">
           <results actualValue="0" expectedValue="0" name="Check for RETURN_CODE" result="Success"/>
           <results actualValue="5" expectedValue="5" name="Check for PARM_LTH" result="Success"/>
           <results actualValue="00003" expectedValue="00003" name="Check for PARM_DATA" result="Success"/>
@@ -187,7 +187,7 @@
             </stubdataassertions>
             <stub href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_CWXTSUBC.stub"/>
           </stubAssertion>
-          <stubAssertion errorCount="0" failureCount="0" testCount="332">
+          <stubAssertion errorCount="0" failureCount="5" testCount="332">
             <stubdataassertions testCount="1">
               <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.0"/>
@@ -431,7 +431,7 @@
               <results actualValue="7225.00" expectedValue="7225.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.15"/>
             </stubdataassertions>
-            <stubdataassertions testCount="22">
+            <stubdataassertions failureCount="2" testCount="22">
               <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
               <results actualValue="MARCIA SULLIVAN" expectedValue="MARCIA SULLIVAN" name="Check for EMP_DTL_NAME" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
@@ -449,11 +449,11 @@
               <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
               <results actualValue="1200.00" expectedValue="1200.00" name="Check for EMP_DTL_WAGES" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
-              <results actualValue="708.00" expectedValue="708.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualHex="4040F6F9F64BF0F0" actualValue="696.00" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="708.00" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
               <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
               <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
-              <results actualValue="1908.00" expectedValue="1908.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="40F1F8F9F64BF0F0" actualValue="1896.00" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1908.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.16"/>
             </stubdataassertions>
             <stubdataassertions testCount="22">
@@ -531,7 +531,7 @@
               <results actualValue="4333.00" expectedValue="4333.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.19"/>
             </stubdataassertions>
-            <stubdataassertions testCount="22">
+            <stubdataassertions failureCount="2" testCount="22">
               <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
               <results actualValue="SAMUEL ADDAMS" expectedValue="SAMUEL ADDAMS" name="Check for EMP_DTL_NAME" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
@@ -549,11 +549,11 @@
               <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
               <results actualValue="1100.00" expectedValue="1100.00" name="Check for EMP_DTL_WAGES" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
-              <results actualValue="324.50" expectedValue="324.50" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualHex="4040F3F1F94BF0F0" actualValue="319.00" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="324.50" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
               <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
               <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
-              <results actualValue="1424.50" expectedValue="1424.50" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="40F1F4F1F94BF0F0" actualValue="1419.00" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1424.50" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.20"/>
             </stubdataassertions>
             <stubdataassertions testCount="22">
@@ -585,11 +585,11 @@
               <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.22"/>
             </stubdataassertions>
-            <stubdataassertions testCount="4">
+            <stubdataassertions failureCount="1" testCount="4">
               <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
               <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER1" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
-              <results actualValue="46136.00" expectedValue="46136.00" name="Check for EMP_GRAND_TOTAL" result="Success"/>
+              <results actualHex="4040F4F6F1F1F84BF5F0" actualValue="46118.50" dataID="output23.arg0.EMP_TOTAL_DTL.EMP_GRAND_TOTAL" expectedAssert="" expectedValue="46136.00" message="Check for EMP_GRAND_TOTAL failed" name="Check for EMP_GRAND_TOTAL" result="Failure"/>
               <stubdata href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub.23"/>
             </stubdataassertions>
             <stub href="CWXTCOB_Scenario2.archive#Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub"/>
